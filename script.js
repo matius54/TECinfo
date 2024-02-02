@@ -1,5 +1,5 @@
 const el = document.querySelector(".youtube");
-fetchJSON.get("./data.json",(json)=>{
+fetchJSON("./data.json").then((json)=>{
     const title = document.createElement("h1");
     title.innerText = "Canales de YouTube";
     el.appendChild(title);
@@ -34,7 +34,6 @@ fetchJSON.get("./data.json",(json)=>{
             });
             container.appendChild(tags);
         }
-
         el.appendChild(container);
     });
 });
