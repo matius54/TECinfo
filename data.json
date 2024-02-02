@@ -3,7 +3,7 @@
         {
             "name":"HolaMundo",
             "desc":"",
-            "image":"https://yt3.googleusercontent.com/Z69fhRL9_OaXsDz-XsCUe2sGIqU7G1F5Mwl0PwlBsx_ll13K0nLb47q7_RMen7NHvzMVDgd2=s176-c-k-c0x00ffffff-no-rj",
+            "icon":"https://yt3.googleusercontent.com/Z69fhRL9_OaXsDz-XsCUe2sGIqU7G1F5Mwl0PwlBsx_ll13K0nLb47q7_RMen7NHvzMVDgd2=s176-c-k-c0x00ffffff-no-rj",
             "banner":"https://yt3.googleusercontent.com/H4gcAv3zm9Fr0wsScDfc9Fur7XtGUxptwhKWXkW3CLfzQCZBZ-7dTewnatnTshOXlQBe_cwYWQ=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
             "link":"https://www.youtube.com/@HolaMundoDev",
             "tags":["academico","basico","simplificado"],
@@ -11,39 +11,109 @@
             "lang":"es-mx"
         },
         {
+            "name":"mouredev",
+            "desc":"",
+            "icon":"https://yt3.googleusercontent.com/ytc/AIf8zZQQKFWZCAt-QVvEKVd2491u0otSPuY-kOYTnK14DQ=s176-c-k-c0x00ffffff-no-rj",
+            "banner":"https://yt3.googleusercontent.com/xuA8YUhKZcREEfys5Dv3GtoMalQKcezKk22AlJ_-TOMATYn9NuZX5-UJtiqP5pZtFnHKXuDuR_U=w2120-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+            "quality":6,
+            "tags":["academico","basico","simplificado"],
+            "link":"https://www.youtube.com/@mouredev",
+            "lang":"es-mx"
+        },
+        {   
+            "name":"Soy Dalto",
+            "desc":"",
+            "icon":"https://yt3.googleusercontent.com/jHpWdf9qWNdrCjxfQxCxR0aiYY9Y1IO7s6Jwlk-OgKxS8nzjEMffakE6mdOdp2u22R3130U0nQ=s176-c-k-c0x00ffffff-no-rj",
+            "banner":"https://yt3.googleusercontent.com/ozap5qgt_Ms_ZC1L_wJO8J9JcQgLJdTb_9onstR5_fobwIGkY06pE1ynpm8oWNzix_RVZH0SLg=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+            "quality":7,
+            "tags":["academico","basico","simplificado"],
+            "link":"https://www.youtube.com/@soydalto",
+            "lang":"es-mx"
+        },
+        {
+            "name":"Beta Tech",
+            "desc":"",
+            "icon":"https://yt3.googleusercontent.com/8AOr-i-KT3A4U46kAZKHHnshrV8Mr44DdoV6yzlb24PU3Pnmj6U1X9I44A6V-qRSW95wMyOu=s176-c-k-c0x00ffffff-no-rj",
+            "banner":"https://yt3.googleusercontent.com/nTXSL8bADBn8WwP_h-GD3lGWCdFcFeYzSUcUopsVY2JkkDEaOQsMleTqGI0KYnCOn0yH2AYD=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+            "link":"https://www.youtube.com/@BettaTech",
+            "tags":["academico","basico","simplificado"],
+            "quality":7,
+            "lang":"es-mx"
+        },
+        {
+            "name":"BitBoss",
+            "desc":"",
+            "icon":"https://yt3.googleusercontent.com/ytc/AIf8zZRvUkscbGKbp2QAjykQ5YL5W71XOUEQaJCzN9sz7g=s176-c-k-c0x00ffffff-no-rj",
+            "banner":"https://yt3.googleusercontent.com/u7W7_vbyK07dcMNLBDpBORrYR1cfiABL5HcYotxzAPG7H7G8E5X_kPZ0VjjPFJDoZL63JIZXy9M=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+            "link":"https://www.youtube.com/@BitBoss/videos",
+            "tags":["academico","basico","simplificado"],
+            "quality":7,
+            "lang":"es-mx"
+        },
+        {
+            "name":"Ringa Tech",
+            "desc":"",
+            "icon":"https://yt3.googleusercontent.com/ytc/AIf8zZQ_628FC62x8kO-t5RPpwG7svEFDWMABw9KPmjPtg=s176-c-k-c0x00ffffff-no-rj",
+            "banner":"https://yt3.googleusercontent.com/797CRhTuwKjGN6uvbEqWn3OKG7lZG3qSps2NV8dUsFfvX4lJvM0R5Ogoiw_KUAwvWfFhPoHh=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+            "link":"https://www.youtube.com/@RingaTech",
+            "tags":["programador","python","IA","actualidad","experimentos"],
+            "quality":8,
+            "lang":"es-mx"
+        },
+        {
             "name":"midulive",
             "desc":"",
-            "image":"https://yt3.googleusercontent.com/ytc/AIf8zZQZfiNhn4NPzAy6LnnTA6uMyyIK48_iqcGwYUMd=s176-c-k-c0x00ffffff-no-rj",
+            "icon":"https://yt3.googleusercontent.com/ytc/AIf8zZQZfiNhn4NPzAy6LnnTA6uMyyIK48_iqcGwYUMd=s176-c-k-c0x00ffffff-no-rj",
             "banner":"https://yt3.googleusercontent.com/S48x-xuchzVBlGwlPd0eKcanWSHcte7RsaPMBkCrwCTdFCllfTCiCXHcUFR1H5Nwwn9I7f5hyw=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
             "link":"https://www.youtube.com/@midulive",
-            "tags":["fullstack","frontend","JavaScript","nodejs","sql","noticias","español","profesional"],
-            "quality":8,
+            "tags":["fullstack","frontend","JavaScript","nodejs","sql","noticias","profesional"],
+            "quality":9,
             "lang":"es-es"
         },
         {
             "name":"hdeleon.net",
             "desc":"",
-            "image":"https://yt3.googleusercontent.com/y0B6w_19cVQRqGisvkmZu7depYJAmtDbOHrvMqH4UU6YSs5x7sKvX84U-rmyVYUnIZjgSAaQ8TE=s176-c-k-c0x00ffffff-no-rj",
+            "icon":"https://yt3.googleusercontent.com/y0B6w_19cVQRqGisvkmZu7depYJAmtDbOHrvMqH4UU6YSs5x7sKvX84U-rmyVYUnIZjgSAaQ8TE=s176-c-k-c0x00ffffff-no-rj",
             "banner":"https://yt3.googleusercontent.com/7DuYovSfYMpz5o_uIo4en64DtMVtRzWVOzfIshTNFGHLn15_nOX8nZt3VeXLYQVlAVezQJaR=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
             "link":"https://www.youtube.com/@hdeleonnet",
-            "tags":["backend","sql","C#",".NET","oop","abstracciones","diseño","español","profesional"],
-            "quality":8,
+            "tags":["backend","sql","C#",".NET","oop","abstracciones","diseño","profesional"],
+            "quality":9,
+            "lang":"es-mx"
+        },
+        {
+            "name":"El Rincón Del Dev",
+            "desc":"",
+            "icon":"https://yt3.googleusercontent.com/AgkxR9muoiV5xQ88CEIL0CLscsLjGfwjswvCIbBDD3HgPHVkVZjBCKwmZGQh8tRE7K33M4UdC98=s176-c-k-c0x00ffffff-no-rj",
+            "banner":"https://yt3.googleusercontent.com/cujNoxmxXgp2U4xWU5QcU2p_w50L44lHiPH36iK_GLommlhuiQYo_GsW5q9AQWZawrIaO4tRNQ=w2120-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+            "link":"https://www.youtube.com/@elrincondeldev",
+            "tags":["freelance","programador","experiencia","consejos"],
+            "quality":7,
+            "lang":"es-mx"
+        },
+        {
+            "name":"munoncode",
+            "desc":"",
+            "icon":"https://yt3.googleusercontent.com/rCHEjQ_EdDDyPN6gSevnbRzWr9eSt5rJx0UG8dH9vMKj9c3qYudjXgCLuJsf4CmxhbCD7v_hQg=s176-c-k-c0x00ffffff-no-rj",
+            "banner":"https://yt3.googleusercontent.com/lASRb50AHWw93tharC443yr9WcSzkJlNvZAw-s2BBkhWQgk--mp6oYSQz_h4cXmTx1brFx_vLg=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+            "link":"https://www.youtube.com/@munoncode",
+            "tags":["novato","programador","freelance","experiencia","consejos"],
+            "quality":7,
             "lang":"es-mx"
         },
         {
             "name":"Fireship",
             "desc":"",
-            "image":"https://yt3.googleusercontent.com/ytc/AIf8zZTUVa5AeFd3m5-4fdY2hEaKof3Byp8VruZ0f0FNEA=s176-c-k-c0x00ffffff-no-rj",
+            "icon":"https://yt3.googleusercontent.com/ytc/AIf8zZTUVa5AeFd3m5-4fdY2hEaKof3Byp8VruZ0f0FNEA=s176-c-k-c0x00ffffff-no-rj",
             "banner":"https://yt3.googleusercontent.com/nQxZwEfVWgF8zhdqc3gWTFmnDY21uPt6KMxw0m0-pRgW_lOt8jjAAfmFsC6ZRkMjZO-MeCxN6Q=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
             "link":"https://www.youtube.com/@Fireship",
-            "tags":["fullstack","academico","noticias","tutoriales intensos","alta densidad","ingles"],
+            "tags":["fullstack","academico","noticias","tutoriales intensos","alta densidad"],
             "quality":9,
             "lang":"en-us"
         },
         {
             "name":"CodingWithJohn",
             "desc":"",
-            "image":"https://yt3.googleusercontent.com/ytc/AIf8zZSBBYOb2DBqGM4m9C_oTtL_rfW8gDkT1QgEnclH=s176-c-k-c0x00ffffff-no-rj",
+            "icon":"https://yt3.googleusercontent.com/ytc/AIf8zZSBBYOb2DBqGM4m9C_oTtL_rfW8gDkT1QgEnclH=s176-c-k-c0x00ffffff-no-rj",
             "banner":"https://yt3.googleusercontent.com/FJKROXrW1Nroc7F9jKY2AlsIEZm-tJXvfcwZRZp_cjDCOIYzKYU_UwVCo8cWa7h7U5TAx0v6=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
             "link":"https://www.youtube.com/@CodingWithJohn",
             "tags":["java","basico","abstracciones","oop"],
@@ -53,7 +123,7 @@
         {
             "name":"bigboxSWE",
             "desc":"",
-            "image":"https://yt3.googleusercontent.com/towOWTBoExeb63XYp_Ol5v7qXZ5lEYhUyqhu-dFX2k-bznCGQ2uB37XxLqZgs0stCicWFMNjzw=s176-c-k-c0x00ffffff-no-rj",
+            "icon":"https://yt3.googleusercontent.com/towOWTBoExeb63XYp_Ol5v7qXZ5lEYhUyqhu-dFX2k-bznCGQ2uB37XxLqZgs0stCicWFMNjzw=s176-c-k-c0x00ffffff-no-rj",
             "banner":"https://yt3.googleusercontent.com/mNDhkft6TwjlkQfVvZV-jPeZI7BpoD6VjnsCxZXnUmXvgoeoqT3ARskukIR4hvoHeDewT93IMA=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
             "link":"https://www.youtube.com/@bigboxSWE",
             "tags":["inpiracion","abstracciones","realidad","psicología"],
@@ -63,7 +133,7 @@
         {
             "name":"CodeAestethic",
             "desc":"",
-            "image":"https://yt3.googleusercontent.com/n5SlI5Ps1SWnuI58faTPSb2HvFKO9nZJ34ztRxRa8V-gl5KyP97oI1A5YnlkRGD_BTUThREfJw=s176-c-k-c0x00ffffff-no-rj",
+            "icon":"https://yt3.googleusercontent.com/n5SlI5Ps1SWnuI58faTPSb2HvFKO9nZJ34ztRxRa8V-gl5KyP97oI1A5YnlkRGD_BTUThREfJw=s176-c-k-c0x00ffffff-no-rj",
             "banner":"https://yt3.googleusercontent.com/JqHYSaQD5u4Zh3DOBiBqw-5Vwmb7IZGkAoc7T3nttWa0dDsboYEUW7oGzgcgDelZKWbyUyXc9w=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
             "link":"https://www.youtube.com/@CodeAesthetic",
             "tags":["estetica funcional del codigo","abstracciones","profesional"],
@@ -73,7 +143,60 @@
     ],
     "links":[
         {
-            "name":"xd"
+            "name":"W3 Schools: Online WEB Tutorial",
+            "tags":["tutoriales"],
+            "icon":"https://www.w3schools.com/favicon.ico",
+            "link":"https://www.w3schools.com/",
+            "lang":"en-us"
+        },
+        {
+            "name":"MDN: Web Docs",
+            "tags":["tutoriales","fullstack","docs","documentacion"],
+            "icon":"https://developer.mozilla.org/favicon.ico",
+            "link":"https://developer.mozilla.org/es/docs/Web",
+            "lang":"en-us"
+        },
+        {
+            "name":"Documentacion oficial de PHP",
+            "tags":["docs","PHP"],
+            "icon":"https://www.php.net/favicon.ico",
+            "link":"https://www.php.net/manual/es/",
+            "lang":"es-mx"
+        },
+        {
+            "name":"Clippy: CSS clip-path maker",
+            "tags":["Herramienta","recorte poligonal","CSS","interactiva"],
+            "icon":"https://upload.wikimedia.org/wikipedia/commons/1/1f/CSS_icon.svg",
+            "link":"https://bennettfeely.com/clippy/",
+            "lang":"en-us"
+        },
+        {
+            "name":"JS Minify",
+            "tags":["Herramienta","obfuscador","minimizador","JavaScript"],
+            "icon":"https://cdn.uglifyjs.net/assets/images/jsc-180.webp",
+            "link":"https://www.uglifyjs.net/",
+            "lang":"en-us"
+        },
+        {
+            "name":"Tabler ICONS",
+            "tags":["coleccion de iconos","gratuita","svg","4950 iconos"],
+            "icon":"https://tabler.io/favicon.ico",
+            "link":"https://tabler.io/icons",
+            "lang":"en-us"
+        },
+        {
+            "name":"Can I use",
+            "tags":["Herramienta","buscador","compatibilidad","frontend"],
+            "icon":"https://caniuse.com/img/favicon-128.png",
+            "link":"https://caniuse.com/",
+            "lang":"en-us"
+        },
+        {
+            "name":"RECURSOS INFORMÁTICOS",
+            "tags":["Telegram","canal","publico"],
+            "icon":"https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
+            "link":"https://t.me/recursosinformaticos",
+            "lang":"es-mx"
         }
     ]
 }
