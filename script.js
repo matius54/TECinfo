@@ -12,6 +12,7 @@ fetchJSON("./data.json").then((json)=>{
         divEx.setAttribute("class",category);
         const title = document.createElement("h1");
         title.innerText = names[category];
+        title.setAttribute("name",category);
         divEx.appendChild(title);
         const ul = document.createElement("ul");
         
@@ -19,13 +20,12 @@ fetchJSON("./data.json").then((json)=>{
             let containerStyle = "";
             const container = document.createElement("li");
             if(element.banner){
-                containerStyle += 
-                    `
+                containerStyle += `
                     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("${element.banner}");
                     background-position: center; /* Center the image */
                     background-repeat: no-repeat; /* Do not repeat the image */
                     background-size: cover; /* Resize the background image to cover the entire container */
-                    `;
+                `;
             }
             if(animationExecuted){
                 containerStyle += `animation-delay: ${indx * 100}ms;`
@@ -39,7 +39,7 @@ fetchJSON("./data.json").then((json)=>{
             if(element.icon){
                 img.setAttribute("src",element.icon);
             }else{
-                img.setAttribute("src","./youtube.svg")
+                img.setAttribute("src","./X.svg")
             }
             container.appendChild(img);
     
@@ -62,7 +62,7 @@ fetchJSON("./data.json").then((json)=>{
             }
             const lang = document.createElement("span");
             lang.setAttribute("class","lang");
-            const langStr = element.lang.startsWith("es")? "Español": "Inglés";
+            const langStr = element.lang? element.lang.startsWith("es")? "Español": "Inglés" : undefined;
             lang.innerText=`Idioma: ${langStr}`;
             container.appendChild(lang);
 

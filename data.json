@@ -178,6 +178,27 @@
             "lang":"en-us"
         },
         {
+            "name":"Excalidraw",
+            "tags":["Herramienta","pizarra","dibujo","creativo"],
+            "icon":"https://excalidraw.com/apple-touch-icon.png",
+            "link":"https://excalidraw.com/",
+            "lang":"es-mx"
+        },
+        {
+            "name":"DB Diagram IO",
+            "tags":["Herramienta","sql","diagrama de base de datos relacional"],
+            "link":"https://dbdiagram.io/d",
+            "icon":"https://cdn.holistics.io/logo-dbdiagram-notext.ico",
+            "lang":"es-mx"
+        },
+        {
+            "name":"Draw IO",
+            "tags":["Herramienta","diagramas","diagramas uml","totalmente gratis"],
+            "link":"https://app.diagrams.net/",
+            "icon":"https://app.diagrams.net/favicon.ico",
+            "lang":"es-mx"
+        },
+        {
             "name":"Tabler ICONS",
             "tags":["coleccion de iconos","gratuita","svg","4950 iconos"],
             "icon":"https://tabler.io/favicon.ico",
