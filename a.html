@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Restablecer estilos por defecto */
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        /* Asignar estilos a la lista */
+        .lista-clickable {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        /* Asignar estilos a los elementos de la lista */
+        .lista-clickable li {
+            margin: 0 5px 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: center;
+            transition: all 0.3s ease-in-out;
+        }
+
+        /* Asignar estilos al estado hover de los elementos */
+        .lista-clickable li:hover {
+            background-color: #ccc;
+            border-color: #bbb;
+        }
+
+        /* Asignar estilos a los elementos activos */
+        .lista-clickable li.active {
+            background-color: #000;
+            color: #fff;
+        }
+
+        /* Media queries para adaptar el diseño a diferentes dispositivos */
+
+        @media screen and (max-width: 768px) {
+            .lista-clickable {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <ul class="lista-clickable">
+        <li><a href="#">Elemento 1</a></li>
+        <li><a href="#">Elemento 2</a></li>
+        <li><a href="#">Elemento 3</a></li>
+    </ul>
+</body>
+</html>
