@@ -16,7 +16,7 @@ nav {
     position: sticky;
     top: 0;
     right: 0;
-    width: 673px;
+    width: min(673px,100%);
     height: max-content;
     background-color: var(--main-color);
     border-radius: 0 0 10px 10px;
