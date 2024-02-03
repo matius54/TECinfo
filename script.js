@@ -6,7 +6,7 @@ const names = {
 
 fetchJSON("./data.json").then((json)=>{
     base.querySelectorAll("*").forEach(e=>e.remove());
-    const animationExecuted = !sessionStorage.getItem("animationExecuted");
+    const animationExecuted = sessionStorage.getItem("animationExecuted");
     for(const category in json){
         const divEx = document.createElement("div");
         divEx.setAttribute("class",category);
@@ -22,15 +22,15 @@ fetchJSON("./data.json").then((json)=>{
             if(element.banner){
                 containerStyle += `
                     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("${element.banner}");
-                    background-position: center; /* Center the image */
-                    background-repeat: no-repeat; /* Do not repeat the image */
-                    background-size: cover; /* Resize the background image to cover the entire container */
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
                 `;
             }
             if(animationExecuted){
-                containerStyle += `animation-delay: ${indx * 100}ms;`
-            }else{
                 containerStyle += "animation-duration: 0ms;"
+            }else{
+                containerStyle += `animation-delay: ${indx * 100}ms;`
             }
             container.setAttribute("style",containerStyle);
             container.setAttribute("class","cnt");
@@ -71,7 +71,7 @@ fetchJSON("./data.json").then((json)=>{
         divEx.appendChild(ul);
         base.appendChild(divEx);
     }
-    if(animationExecuted)sessionStorage.setItem("animationExecuted","true");
+    if(!animationExecuted)sessionStorage.setItem("animationExecuted","true");
 }).catch((e)=>{
     const err = document.createElement("div");
     err.setAttribute("class","cnt");

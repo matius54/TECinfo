@@ -9,25 +9,61 @@ test
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     scroll-behavior: smooth;
-    --main-color: blueviolet;
+    --main-color: rgb(138, 43, 226);
+    --main-color-a: rgba(138, 43, 226, 0.75);
+    --over-main-color: rgb(255, 255, 255);
+    --second-color: rgb(0, 0, 0);
+    --background-color: rgb(28, 27, 34);
 }
 
-nav {
+.header {
     position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     top: 0;
     right: 0;
     width: min(673px,100%);
     height: max-content;
-    background-color: var(--main-color);
+    background-color: var(--main-color-a);
+    backdrop-filter: blur(5px);
     border-radius: 0 0 10px 10px;
     z-index: 2;
     overflow: hidden;
 }
 
-nav > * {
+.header h3 {
+    position: relative;
+    top: 50%;
     text-align: center;
+    white-space: nowrap;
+    transition: filter 200ms;
+    user-select: none;
+    cursor: pointer;
+    font-weight: bolder;
 }
 
+.header > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.header > ul > li {
+    align-self: center;
+    
+}
+.header > ul > li svg {
+    color: var(--over-main-color);
+    transition: filter 200ms;
+    cursor: pointer;
+}
+.header > ul > li svg:hover , .header h3:hover {
+    filter: invert(1);
+}
 html {
     position: absolute;
     display: flex;
@@ -35,13 +71,11 @@ html {
     justify-content: center;
 }
 
-html > * {
-    max-width: min(673px,100%);
-    margin: 0;
-}
-
 body {
     margin-bottom: 50vh;
+    max-width: min(673px,100%);
+    margin: 0;
+    background-color: var(--background-color);
 }
 
 .data {
@@ -50,7 +84,7 @@ body {
     gap: 10rem;
 }
 .cnt {
-    background-color: black;
+    background-color: var(--second-color);
     position: relative;
     display: flex;
     flex-direction: row;
@@ -71,9 +105,6 @@ div h1 {
     list-style: none;
     padding: 0;
     overflow: hidden;
-}
-.cnt > * {
-    /*margin: 0 2rem;*/
 }
 .cnt > a {
     align-self: center;
